@@ -1,1 +1,1 @@
-Sitemap: /esprit-europeen/sitemap.xml
+Sitemap: /revue/sitemap.xml
