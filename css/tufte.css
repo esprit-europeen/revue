@@ -236,11 +236,13 @@ section { padding-top: 1rem; padding-bottom: 1rem; }
 
 ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: inherit; }
 
-figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
+figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 2em; }
 
 figcaption { float: right; clear: right; margin-right: -50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
 
-figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
+figure.fullwidth { margin-top: 2em; }
+
+figure.fullwidth figcaption { float: left; clear: left; margin-left: 20%; margin-right: 20%; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 100%; }
 
 img { max-width: 100%; }
 
