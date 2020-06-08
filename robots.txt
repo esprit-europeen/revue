@@ -1,1 +1,1 @@
-Sitemap: /revue/sitemap.xml
+Sitemap: /sitemap.xml
