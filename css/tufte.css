@@ -177,7 +177,7 @@ p.subtitle { font-family: "Lato", "Avenir", Gill Sans, Bold, Gill Sans Bold, "Gi
 
 p, ol, ul { font-size: 1.4rem; text-align: justify; text-justify: inter-word; }
 
-p, li { line-height: 2rem; margin-top: 1.4rem; padding-right: 2rem; vertical-align: baseline; }
+p, li { line-height: 2rem; margin-top: 1.4rem; vertical-align: baseline; }
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 3.5636rem 0; }
@@ -234,7 +234,9 @@ article { position: relative; padding: 1rem 0rem 2rem 2.5rem; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
-ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: inherit; }
+ol { width: 45%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: inherit; }
+
+ul { width: 45%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: none; }
 
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 2em; }
 
@@ -248,7 +250,7 @@ img { max-width: 100%; }
 
 .sidenote, .marginnote { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 1.96rem; font-size: 0.9rem; line-height: 1.3; vertical-align: baseline; position: relative; hyphens: none; }
 
-li .sidenote, li .marginnote { margin-right: -80%; }
+li .sidenote, li .marginnote { margin-right: -110%; width: 85%; }
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -79%; }
 
@@ -264,7 +266,7 @@ p, div.table-wrapper, .MJXc-display { width: 55%; }
 
 div.table-wrapper { overflow-x: auto; }
 
-@media screen and (max-width: 760px) { p, footer { width: 90%; } pre code { width: 87.5%; } ul { width: 85%; } figure { max-width: 90%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer, div.epigraph > blockquote > footer, .MJXc-display { width: 80%; padding-left: 5%; padding-right: 5%; } }
+@media screen and (max-width: 760px) { p, footer { width: 90%; } pre code { width: 87.5%; } ul { width: 90%; } figure { max-width: 90%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer, div.epigraph > blockquote > footer, .MJXc-display { width: 80%; padding-left: 5%; padding-right: 5%; } }
 
 .marginnote code, .sidenote code { font-size: 1.1rem; }
 
