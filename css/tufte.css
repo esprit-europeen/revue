@@ -177,7 +177,7 @@ p.subtitle { font-family: "Lato", "Avenir", Gill Sans, Bold, Gill Sans Bold, "Gi
 
 p, ol, ul { font-size: 1.4rem; text-align: justify; text-justify: inter-word; }
 
-p, li { line-height: 2rem; margin-top: 1.4rem; vertical-align: baseline; }
+p, li { line-height: 2rem; margin-top: 1.4rem; padding-right: 2rem; vertical-align: baseline; }
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 3.5636rem 0; }
