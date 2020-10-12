@@ -278,6 +278,8 @@ pre { width: 52.5%; padding-left: 2.5%; overflow-x: auto; }
 
 span.newthought { font-variant: small-caps; font-size: 1.2em; letter-spacing: 0.05rem; }
 
+span.smallcaps { font-variant: small-caps; }
+
 input.margin-toggle { display: none; }
 
 label.sidenote-number { display: inline; }
