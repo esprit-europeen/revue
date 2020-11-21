@@ -179,25 +179,31 @@ p.subtitle { font-family: "Lato", "Avenir", Gill Sans, Bold, Gill Sans Bold, "Gi
 
 p, ol, ul { font-size: 1.4rem; text-align: justify; text-justify: inter-word; }
 
+ol, ul { font-size: 1.4rem; text-align: justify; text-justify: none; }
+
 p, li { line-height: 2rem; margin-top: 1.4rem; padding-right: 2rem; vertical-align: baseline; }
+
+blockquote { border-left: 2px solid #a00000; }
+
+blockquote p, blockquote footer { width: 55%; line-height: 1.75rem; padding-left: 2.5%; padding-right: 2.5%; }
+
+blockquote footer { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
+
+/* blockquote footer { width: 45%;
+                    text-align: right; }
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 3.5636rem 0; }
 
 div.epigraph > blockquote { margin-top: 3rem; margin-bottom: 3rem; }
 
-div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; border-left: none; }
 
-div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; }
+div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; border-left: none; }
 
-div.epigraph > blockquote > footer > cite { font-style: italic; }
+div.epigraph > blockquote > footer > cite { font-style: italic; border-left: none; }
 
 /* end chapter epigraphs styles */
-blockquote p, blockquote footer { width: 55%; border-left: 2px solid #a00000; line-height: 1.75rem; padding-left: 2.5%; padding-right: 2.5%; }
-
-blockquote footer { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
-
-/* blockquote footer { width: 45%; text-align: right; } */
 .sans { font-family: "Lato", "Avenir", Gill Sans, Bold, Gill Sans Bold, "Gill Sans MT", Calibri, sans-serif; letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 1.2rem; line-height: 1.71428571; margin-top: 1.71428571rem; }
@@ -236,9 +242,9 @@ article { position: relative; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
-ol { width: 45%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: inherit; }
+ol { width: 55%; padding-left: 2.5%; padding-right: 2.5%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: inherit; }
 
-ul { width: 45%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: none; }
+ul { width: 40%; -webkit-padding-start: 2.5%; -webkit-padding-end: 2.5%; list-style-type: none; }
 
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 2em; }
 
@@ -250,9 +256,9 @@ figure.fullwidth figcaption { float: left; clear: left; margin-left: 20%; margin
 
 img { max-width: 100%; }
 
-.sidenote, .marginnote { float: right; clear: right; margin-right: -50%; width: 40%; margin-top: 0; margin-bottom: 1.96rem; font-size: 1rem; line-height: 1.3; vertical-align: baseline; position: relative; hyphens: none; }
+.sidenote, .marginnote { float: right; clear: right; margin-right: -50%; width: 40%; margin-top: 0; margin-bottom: 1.96rem; font-size: 1rem; line-height: 1.3; vertical-align: baseline; position: relative; hyphens: none; text-align: left; }
 
-li .sidenote, li .marginnote { margin-right: -125%; width: 85%; }
+li .sidenote, li .marginnote { margin-right: -130%; width: 85%; }
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -59%; width: 43.5%; }
 
@@ -268,7 +274,7 @@ p, div.table-wrapper, .MJXc-display { width: 60%; }
 
 div.table-wrapper { overflow-x: auto; }
 
-@media screen and (max-width: 760px) { p, footer { width: 95%; } pre code { width: 87.5%; } ul { width: 90%; } figure { max-width: 90%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer, div.epigraph > blockquote > footer, .MJXc-display { width: 90%; padding-left: 5%; padding-right: 5%; } }
+@media screen and (max-width: 760px) { p, footer { width: 95%; } pre code { width: 87.5%; } ul { width: 95%; } ol { width: 95%; } figure { max-width: 90%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer, div.epigraph > blockquote > footer, .MJXc-display { width: 90%; padding-left: 5%; padding-right: 5%; } }
 
 .marginnote code, .sidenote code { font-size: 1.1rem; }
 
@@ -292,6 +298,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 /*--- End of Basic Layout stuff from tufte.css ---*/
 /*--- Modifications personnalisées ---*/
+div.references > div > p { text-align: left; }
+
+div.dossier > p { text-align: left; }
+
+div.nota-bene > p { text-align: left; }
+
 sup { vertical-align: top; position: relative; top: -0.5em; }
 
 .title-image { display: block; margin-top: 3rem; margin-left: auto; margin-right: auto; padding-right: 2.5%; width: 40%; }
