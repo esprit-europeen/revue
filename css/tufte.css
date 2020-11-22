@@ -258,7 +258,7 @@ img { max-width: 100%; }
 
 .sidenote, .marginnote { float: right; clear: right; margin-right: -50%; width: 40%; margin-top: 0; margin-bottom: 1.96rem; font-size: 1rem; line-height: 1.3; vertical-align: baseline; position: relative; hyphens: none; text-align: left; }
 
-li .sidenote, li .marginnote { margin-right: -130%; width: 85%; }
+li .sidenote, li .marginnote { margin-right: -150%; width: 85%; }
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -59%; width: 43.5%; }
 
