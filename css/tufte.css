@@ -324,7 +324,7 @@ ul.footer-links li { display: inline; padding: 0.5rem 0.5rem; }
 
 .full-width .sidenote, .full-width .sidenote-number, .full-width .marginnote { display: none; }
 
-body.full-width, .content-listing, ul.content-listing li.listing { width: 95%; margin-left: auto; margin-right: auto; padding-top: 2.5%; padding-bottom: 0%; padding-left: 2.5%; padding-right: 2.5%; text-align: left; line-height: 1.5rem; }
+body.full-width, .content-listing, ul.content-listing li.listing { width: 95%; padding-top: 2.5%; padding-bottom: 0%; padding-left: 2.5%; padding-right: 2.5%; text-align: left; line-height: 1.5rem; }
 
 .full-width article p { width: 90%; }
 
