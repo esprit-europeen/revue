@@ -145,7 +145,7 @@
 /* Réglages généraux */
 html { vertical-align: baseline; font-size: 11px; }
 
-body { width: 95%; margin-left: auto; margin-right: auto; padding-left: 2.5%; padding-right: 2.5%; font-family: Optima, ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; background-color: #fffff9; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+body { width: 95%; margin-left: auto; margin-right: auto; padding-left: 2.5%; padding-right: 2.5%; font-family: Optima, ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; background-color: #f7f6f2; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
 
 article { position: relative; padding-left: 1rem; padding-top: 0.5rem; }
 
