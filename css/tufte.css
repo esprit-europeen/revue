@@ -285,6 +285,8 @@ div.table-wrapper { overflow-x: auto; }
 
 /*--- Modifications personnalisées ---*/
 /* Références */
+div.references > div { width: 60%; font-size: 1.25rem; line-height: 1.5rem; hyphens: auto; margin-top: 1rem; padding-right: 2rem; vertical-align: baseline; }
+
 /* Pour aller plus loin */
 /* Nota bene */
 /* Microtypographie */
